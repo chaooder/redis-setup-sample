@@ -6,6 +6,7 @@ Repository contains files to setup either Redis Standalone instance, or Redis Cl
 ### Prerequisites
 You will need to download Redis binaries, see:
 * Redis Quickstart: https://redis.io/topics/quickstart
+
 For windows, you can download the binaries from https://github.com/microsoftarchive/redis/releases
 
 ### Using the Sample
