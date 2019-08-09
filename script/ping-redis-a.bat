@@ -1,0 +1,1 @@
+redis-cli -a changeit ping

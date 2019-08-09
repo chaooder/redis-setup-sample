@@ -1,0 +1,17 @@
+[Unit]
+Description=Start Redis Instance
+
+# Specify user & group starting the redis instance
+[Service]
+User=root
+Group=root
+
+# Edit below to specify path to redis home and config/pid files
+ExecStart=[/path/to/redis/]redis-server [/path/to/redis-setup-sample/conf/]b.conf
+PIDFile=[/path/to/redis-setup-sample/log/]b.pid
+
+Restart=always
+RestartSec=10s
+
+[Install]
+WantedBy=multi-user.target
