@@ -11,6 +11,7 @@ For windows, you can download the binaries from https://github.com/microsoftarch
 
 ### Using the Sample
 * Ensure that Redis binaries are set to `PATH` environment variable
+* Create `log`, `data`, `data/a`, `data/b` folders
 
 ### Folders
 * `conf` - Config files for starting each Redis snstance
